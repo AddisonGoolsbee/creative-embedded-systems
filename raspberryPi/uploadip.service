@@ -3,8 +3,11 @@ Description=upload the current IP address to github
 After=network.target
 
 [Service]
+User=student334
+Group=student334
 Type=oneshot
 ExecStart=/home/student334/Desktop/CPSC-334/raspberryPi/uploadip
+
 
 [Install]
 WantedBy=multi-user.target
