@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=oneshot
-ExecStart=/home/student334/Desktop/CPSC-334/raspberryPi/setup
+ExecStart=/home/student334/Desktop/CPSC-334/raspberryPi/uploadip
 
 [Install]
 WantedBy=multi-user.target
