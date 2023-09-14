@@ -1,0 +1,12 @@
+#!/bin/bash
+
+DEST_HOST=172.26.65.0
+DEST_NAME=addisongoolsbee
+DEST_DIR=/Users/${DEST_NAME}/Desktop/class/CPSC-334/raspberryPi
+
+DIR="$(cd "$(dirname "$0")" && pwd)"
+IP_ADDRESS=$(hostname -I)
+
+echo $IP_ADDRESS > ${DIR}/ip.md
+
+scp ${DIR}/ip.md ${DEST_NAME}@${DEST_HOST}:${DEST_DIR}
