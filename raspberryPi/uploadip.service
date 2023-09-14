@@ -1,0 +1,10 @@
+[Unit]
+Description=upload the current IP address to github
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/student334/Desktop/CPSC-334/raspberryPi/setup
+
+[Install]
+WantedBy=multi-user.target
