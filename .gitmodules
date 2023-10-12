@@ -1,0 +1,3 @@
+[submodule "interactiveDevices"]
+	path = interactiveDevices
+	url = git@github.com:AddisonGoolsbee/wattage-warlords.git
