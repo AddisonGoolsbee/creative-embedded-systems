@@ -11,15 +11,11 @@ udp_socket.bind((ip_address, port))
 
 print(f"Listening for UDP packets on {ip_address}:{port}...")
 
-
 def visualize(size):
     res = []
     for i in range(size // 40):
         res.append('o')
     print(''.join(res))
-
-
-
 
 while True:
     data, address = udp_socket.recvfrom(1024)
