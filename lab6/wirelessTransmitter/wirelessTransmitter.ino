@@ -6,7 +6,8 @@ const int pin = 34;
 
 const char* ssid = "yale wireless";
 
-const char* udpServerIP = "172.29.128.94"; 
+// const char* udpServerIP = "172.29.128.94"; 
+const char* udpServerIP = "172.29.134.235"; 
 const int udpServerPort = 12345; 
 
 WiFiUDP udp;
