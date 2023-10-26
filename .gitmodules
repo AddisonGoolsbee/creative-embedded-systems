@@ -4,3 +4,6 @@
 [submodule "wattage-warlords"]
 	path = wattage-warlords
 	url = git@github.com:AddisonGoolsbee/wattage-warlords.git
+[submodule "blindfold-artists"]
+	path = blindfold-artists
+	url = git@github.com:AddisonGoolsbee/blindfold-art.git
