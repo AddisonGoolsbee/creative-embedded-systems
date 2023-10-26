@@ -1,3 +1,6 @@
-[submodule "interactiveDevices"]
-	path = interactiveDevices
+[submodule "generative-art"]
+	path = generative-art
+	url = git@github.com:AddisonGoolsbee/cpsc334-generative-art.git
+[submodule "wattage-warlords"]
+	path = wattage-warlords
 	url = git@github.com:AddisonGoolsbee/wattage-warlords.git
